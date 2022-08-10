@@ -1,14 +1,14 @@
 <div class="licenses">
   本站内容遵循&nbsp;&nbsp;<a nounder href="https://creativecommons.org/licenses/by/4.0/deed.zh">知识共享 署名 - 非商业性 - 相同方式共享 4.0 国际协议</a>
 </div>
-<div class='friends-link link-area'>
+{# <div class='friends-link link-area'>
   <span class='link-title'>友链:</span>
   <ul class='link-list'>
     {% for item in FRIENDS_LINK %}
       <a nounder href='{{ item.link }}' title="{{ item.title }}" target='_blank'>{{ item.title }}</a>
     {% endfor %}
   </ul>
-</div>
+</div> #}
 <div class='my-link link-area'>
   <span class='link-title'>联系:</span>
   <ul class='link-list'>
